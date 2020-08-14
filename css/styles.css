@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #181b1b;
+}
+
+/* CONTAINER */
+#container {
+  background-color: #181b1b;
+  padding: 20px;
+  height: 100%;
+}
+
+/* HEADER */
+header {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+header h1 {
+  color: white;
+  padding-bottom: 2px;
+  border-bottom: 2px solid  white;
+
+}
+
+/* NAV BAR */
+#nav-bar {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+ /* top: 2px;
+  position: sticky;*/
+  display: flex;
+}
+
+/*#nav-bar .btn {
+  display: none;  
+  height: 40px;
+  min-width: 40px;
+  cursor: pointer;
+}
+#nav-bar .lines {
+  background-color: #fff;
+  height: 5px;
+  width: 30px;
+  margin: 8px;
+  display: flex;
+}*/
+/*.btn {
+  display: none;    
+  margin-left: 92%;
+  margin-bottom: 20px;
+  min-width: 40px;
+  cursor: pointer;
+}
+/*.lines {
+  background-color: #fff;
+  height: 5px;
+  width: 30px;
+  margin: 8px;
+  /*display: flex;
+}*/
+#nav-bar ul {
+  background-color: #242929;
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  /*justify-content: center;*/
+   justify-content: space-around; 
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#nav-bar ul li {
+  background-color: #242929;
+}
+#nav-bar ul li .on-page {
+  background-color: #3b4444
+}
+/*#nav-bar ul li .on-page:hover {
+  background-color: #3b4444
+}*/
+#nav-bar ul li a:hover {
+  text-decoration: none;
+  background-color: #3b4444
+
+}
+#nav-bar ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+/* MAIN */
+#main {
+  background-image: url("https://lh6.googleusercontent.com/proxy/tj2xuj_cxoVjT0edZ4lGj6OoiDu6pzj4gQ3XSQ9V4_nztWEyxo6yEvN_YSXJeI_9kq9Y2wwaFlMp2mWF-ua29AFxu6IM-EcSu_TY7ddJ1JebMxYdw9gfOMcjEA1Za9aCkayi");
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer  {
+  height: auto;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  text-align: center;
+}
+footer p {
+  font-size: 18px;
+  color: white;
+}
+
+/*CONTENT*/
+.content {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.content p, ul, li {
+  padding: 0 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.content ul {
+  margin-left: 30px;
+}
